@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.5
 import PackageDescription
 
 let package = Package(
@@ -11,7 +11,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Swiftline"
+            name: "Swiftline",
+            path: "Source"
         )
     ]
 )
